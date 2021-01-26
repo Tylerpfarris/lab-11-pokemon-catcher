@@ -1,0 +1,27 @@
+
+#mainSection {
+    margin-top: 200px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-around;
+    border: none;
+}
+div {
+    height: auto;
+    width: auto;
+    border: solid 1px gray;
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+.button-div {
+    display: inline-block;
+
+}
