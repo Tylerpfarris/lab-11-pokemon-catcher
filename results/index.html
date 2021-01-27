@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="./results.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
     <title>Document</title>
 </head>
 
@@ -20,14 +24,28 @@
         </div>
     </header>
     <main>
-        <h2>Gotta Catch 10!</h2>
+        <h2>Lets see your results...</h2>
         <section class="main-section">
-            <div id="mainSection"></div>
+            <div class="chart-div">
+                <canvas id="myChart"></canvas>
+            </div>
+
+
+            <div id="mainSection">
+                <div class="button-div">
+                    <button id="refresh-button">Lets Catch Some More!</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="encountered-div"></div>
         </section>
     </main>
-    <div class="button-div">
-        <button id="refresh-button">Lets Catch Some More!</button>
+
+    <div class="attack-defense-chart-div">
+        <canvas id="attack-defense-chart"></canvas>
     </div>
+
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>

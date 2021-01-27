@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-// import { example } from '../example.js';
+// import { incrementCapturedFunc } from '../e.js';
 
 const test = QUnit.test;
 

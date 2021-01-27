@@ -43,18 +43,18 @@ export function displayThreePokeFunc() {
 
 export function renderPokeImageFunc(pokemonItem) {
     const image = document.createElement('img');
-
+    console.log(pokemonItem._id); 
     image.src = pokemonItem.url_image;
 
     image.classList.add('poke-img');
     image.addEventListener('click', () => {
         incrementCapturedFunc(pokemonItem._id);
-        if (userTurn <= 10){
+        if (userTurn < 10){
             displayThreePokeFunc();
         } else {
             window.location = 'results';
         }
-
+        
     });
     return image;
 }
