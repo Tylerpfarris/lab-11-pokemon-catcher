@@ -1,0 +1,117 @@
+
+body {
+    background-image: url('../assets/profOakLab.jpg');
+    background-size: cover;
+    /* position: absolute; */
+}
+#mainSection {
+    padding: 20px;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: absolute; */
+    justify-content: space-around;
+    border: none;
+    
+}
+.display-div {
+
+   padding: 10px;
+    height: auto;
+    width: 185px;
+    border: solid 10px rgb(218, 186, 4);
+    margin: 25px 10px 10px 10px;
+    background-color: skyblue;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 2.9em;
+}
+
+img {
+    
+    margin:0%;
+    padding: 5%;
+    height: 150px;
+    width: auto;
+}
+
+
+.poke-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.captured-p {
+    margin-left: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.encountered-p {
+    margin-left: 10%;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.button-div {
+    display: inline-block;
+
+}
+
+.chart-div {
+    
+    background-image: url('../assets/balckChalkboard.jpg');
+    background-size: 100% 100%;
+    padding: 50px;
+    /* position: relative; */
+    height: auto;
+    width: auto;
+    margin: 25px;
+}
+
+#encountered-div {
+    margin: 200px;
+    width: 50%;
+    height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: none;
+}
+
+section {
+    display: block;
+    height: 1000%;
+}
+
+#myChart {
+    height: 23em;
+}
+
+#attack-defense-chart {
+    /* position: relative; */
+
+    margin: 50px;
+    height: 10em;
+    width: auto;
+}
+
+.attack-defense-chart-div {
+    background-image: url('../assets/balckChalkboard.jpg');
+    width: auto;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 50px;
+    margin: 50px;
+}
